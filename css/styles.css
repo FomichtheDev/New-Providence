@@ -3,8 +3,10 @@
 @import url(bootstrap-grid.min.css);
 @import url(bootstrap-reboot.min.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700|Varela+Round&display=swap);
-a:hover {
-  text-decoration: none; }
+a {
+  display: inline-block; }
+  a:hover {
+    text-decoration: none; }
 
 nav {
   margin-bottom: 130px; }
@@ -36,7 +38,8 @@ header {
   /* Safari 3.1+ и Chrome 4.0+ */
   -o-background-size: 100%;
   /* Opera 9.6+ */
-  background-size: cover; }
+  background-size: cover;
+  margin-bottom: 120px; }
   header ul li {
     margin-right: 10px; }
     header ul li:last-of-type {
@@ -89,5 +92,126 @@ header {
   content: "\f179";
   margin-right: 14px;
   font-size: 22px; }
+
+.advantages {
+  font-family: "Lato";
+  margin-bottom: 147px; }
+  .advantages h3 {
+    font-size: 26px;
+    color: #26272d;
+    font-weight: 300;
+    margin-bottom: 48px; }
+    .advantages h3:before {
+      display: block;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      font-family: "Font Awesome 5 Pro";
+      font-weight: 900;
+      font-size: 50px;
+      margin-bottom: 45px;
+      color: #267df4;
+      content: "\f023"; }
+  .advantages h3.clock:before {
+    content: "\f017"; }
+  .advantages p {
+    font-size: 18px;
+    color: #8c8f94;
+    font-weight: 400;
+    max-width: 500px; }
+    .advantages p:first-of-type {
+      margin-bottom: 40px; }
+
+.iphone_6 {
+  padding-top: 100px;
+  margin-bottom: 205px; }
+  .iphone_6 .iphone_6_presentation img {
+    width: 100%;
+    height: 100%; }
+  .iphone_6 .protection {
+    padding-top: 100px; }
+    .iphone_6 .protection h3 {
+      font-family: 'Varela Round';
+      font-size: 42px;
+      color: #26272d;
+      max-width: 250px;
+      margin-bottom: 78px; }
+    .iphone_6 .protection p {
+      font-family: "Lato";
+      font-size: 20px;
+      color: #8c8f94;
+      max-width: 480px; }
+      .iphone_6 .protection p:first-of-type {
+        margin-bottom: 60px; }
+      .iphone_6 .protection p:last-of-type {
+        margin-bottom: 80px; }
+    .iphone_6 .protection a {
+      font-family: "Lato";
+      font-size: 16px;
+      color: white;
+      line-height: 42px;
+      text-align: center;
+      border: 1px solid #267df4;
+      background-color: #267df4;
+      border-radius: 20px;
+      min-width: 200px; }
+      .iphone_6 .protection a:first-of-type {
+        margin-right: 10px; }
+        .iphone_6 .protection a:first-of-type:after {
+          display: inline-block;
+          font-style: normal;
+          font-variant: normal;
+          text-rendering: auto;
+          -webkit-font-smoothing: antialiased;
+          font-family: "Font Awesome 5 Pro";
+          font-weight: 900;
+          content: "\f061";
+          font-size: 12px;
+          margin-left: 50px; }
+      .iphone_6 .protection a:last-of-type {
+        margin-left: 10px;
+        border-color: #e9e9ea;
+        color: #26272d;
+        background-color: white;
+        min-width: 140px; }
+
+.everywhere h3 {
+  max-width: 290px;
+  font-family: 'Varela Round';
+  font-size: 42px;
+  color: #26272d;
+  margin-bottom: 66px; }
+.everywhere p {
+  font-family: "Lato";
+  color: #8c8f94;
+  font-size: 20px;
+  margin-bottom: 40px;
+  max-width: 550px; }
+  .everywhere p:last-of-type {
+    margin-bottom: 68px; }
+.everywhere span {
+  display: block;
+  font-size: 16px;
+  color: #26272d;
+  font-weight: 700;
+  margin-bottom: 31px; }
+.everywhere img:first-of-type {
+  margin-right: 16px; }
+.everywhere img:last-of-type {
+  margin-left: 16px; }
+
+.map img {
+  width: 100%;
+  height: 100%; }
+
+.where {
+  margin-bottom: 340px; }
+
+.interface img {
+  box-shadow: 10px 10px 16px 0 rgba(61, 61, 62, 0.15);
+  max-height: 580px; }
+  .interface img:nth-child(3) {
+    max-height: 100%; }
 
 /*# sourceMappingURL=styles.css.map */

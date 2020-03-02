@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@import url(bootstrap.min.css);
+@import url(bootstrap-grid.min.css);
+@import url(bootstrap-reboot.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700|Varela+Round&display=swap);
+a:hover {
+  text-decoration: none; }
+
+nav {
+  margin-bottom: 130px; }
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  color: #26272d;
+  line-height: 42px;
+  padding: 0 15px 0;
+  border: transparent solid 1px;
+  text-align: center;
+  transition: .2s ease-in-out width; }
+  .navbar-light .navbar-nav .nav-link:hover {
+    border: #267df4 solid 1px;
+    border-radius: 20px;
+    background-color: #267df4;
+    color: white; }
+
+header {
+  padding-top: 60px;
+  background-image: url("../images/tomorrow_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: 100%;
+  /* Firefox 3.6+ */
+  -webkit-background-size: 100%;
+  /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%;
+  /* Opera 9.6+ */
+  background-size: cover; }
+  header ul li {
+    margin-right: 10px; }
+    header ul li:last-of-type {
+      margin: 0; }
+
+.tomorrow span {
+  font-size: 62px;
+  color: #26272d;
+  font-family: "Varela Round";
+  display: inline-block;
+  margin-bottom: 40px; }
+.tomorrow p {
+  font-family: "Lato";
+  font-size: 20px;
+  color: #8c8f94;
+  margin-bottom: 62px; }
+.tomorrow a {
+  font-family: "Lato";
+  text-align: center;
+  color: #26272d;
+  font-size: 16px;
+  line-height: 48px;
+  border: solid 1px #d9dcde;
+  border-radius: 20px;
+  display: block;
+  max-width: 200px;
+  margin: auto; }
+  .tomorrow a:before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    content: "\f04b";
+    margin-right: 15px;
+    font-size: 10px; }
+.tomorrow img {
+  margin-top: 35px; }
+
+.navbar-light .navbar-nav .active > .nav-link:last-of-type:before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "\f179";
+  margin-right: 14px;
+  font-size: 22px; }
+
+/*# sourceMappingURL=styles.css.map */

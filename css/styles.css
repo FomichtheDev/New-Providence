@@ -24,12 +24,16 @@ a {
   a:hover {
     text-decoration: none; }
 
+.navbar-nav li:nth-child(3) {
+  margin-right: 300px; }
+.navbar-nav li:nth-child(4) {
+  margin-left: 300px; }
+
 .navbar-light .navbar-nav .nav-link {
   font-weight: 400;
   font-size: 16px;
   color: #26272d;
   line-height: 42px;
-  padding: 0 15px 0;
   border: transparent solid 1px;
   text-align: center;
   transition: .2s ease-in-out width; }
@@ -66,10 +70,13 @@ header {
   transition: all 0.37s cubic-bezier(0, 0, 0.58, 1); }
   header nav {
     padding: 24px 0; }
-  header ul li {
-    margin-right: 10px; }
-    header ul li:last-of-type {
-      margin: 0; }
+  header ul {
+    max-height: 60px;
+    vertical-align: top; }
+    header ul li {
+      margin-right: 10px; }
+      header ul li:last-of-type {
+        margin: 0; }
 
 .tomorrow {
   padding-top: 204px;
@@ -117,6 +124,7 @@ header {
   position: absolute;
   left: 50%;
   top: 30px;
+  vertical-align: bottom;
   transform: translate(-50%, -50%); }
 
 .navbar-brand {
@@ -240,6 +248,9 @@ header {
 
 .interface {
   margin-bottom: 200px; }
+  .interface .row {
+    justify-content: space-between;
+    align-items: center; }
   .interface .for_iph_sm {
     max-width: 18%;
     max-height: 568px;
@@ -434,7 +445,7 @@ header {
   .switcher .individual.active, .switcher .company.active {
     color: rgba(38, 41, 44, 0.4); }
   .switcher .switch-toggles {
-    max-width: 256px;
+    width: 256px;
     border: 1px solid #d1d2d3;
     border-radius: 24px;
     line-height: 48px;

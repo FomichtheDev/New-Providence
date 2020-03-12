@@ -2,10 +2,132 @@
 
 /*}*/
 
+@media only screen and (max-width: 1200px) {
+    .iphone_6 .protection{
+        padding-top: 0;
+    }
+    .switcher .starter, .switcher .pro{
+        max-width: 300px;
+    }
+    .navbar-nav li:nth-child(3){
+     margin-right: 150px;
+ }
+     .navbar-nav li:nth-child(4){
+     margin-left: 150px;
+ }
+}
+@media only screen and (max-width: 1023px) {
+    .iphone_6{
+        padding-top: 0;
+    }
+    .interface .for_iph_big ,.interface .for_iph_sm{
+        margin:0 0 30px;
+        max-width: 40%;
+    }
+    .interface{
+        margin-bottom: 100px;
+    }
+    .where{
+        margin-bottom: 120px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .navbar-nav li , .navbar-nav li:nth-child(3) , .navbar-nav li:nth-child(4){
+        margin: 0;
+    }
+    .iphone_6 .protection a:hover{
+        min-width: 150px;
+    }
+    .iphone_6 .protection a:hover:after{
+        margin-left: 25px;
+    }
+    .iphone_6 .protection .for_btn{
+        width: 150px;
+    }
+    .everywhere p{
+        font-size: 16px;
+    }
+    .everywhere img:last-of-type{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .email{
+        margin-bottom: 100px;
+    }
+    .choose_plan{
+        margin-bottom: 75px;
+    }
+    .switcher{
+        margin-bottom: 100px;
+        margin-top: -200px;
+    }
+    footer ul li a{
+        font-size: 14px;
+    }
+}
+
 @media only screen and (max-width: 767px) {
-    .video{
-        height: auto;
-        margin: 0 15px;
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 14px;
+    }
+    .navbar-light .navbar-nav .active > .nav-link:last-of-type:before{
+        font-size: 16px;
+        margin-right: 8px;
+    }
+    .advantages .row div:first-of-type{
+        margin-bottom: 25px;
+    }
+    .iphone_6_presentation{
+        margin-bottom: 25px;
+    }
+    .iphone_6{
+        margin-bottom: 50px;
+    }
+    .map{
+        margin-top: 100px;
+    }
+    .interface .for_iph_big ,.interface .for_iph_sm{
+        margin:0 0 30px;
+        max-width: 51%;
+        justify-content: center;
+    }
+    footer ul{
+        margin-bottom: 0;
+    }
+    footer span{
+        margin-top: 50px;
+    }
+    footer ul li:last-of-type{
+        margin-bottom: 100px;
+    }
+}
+@media only screen and (max-width: 413px) {
+    .tomorrow p{
+        margin: 0 auto 40px;
+        max-width: 310px;
+        font-size: 16px;
+    }
+    .tomorrow img{
+        max-width: 310px;
+    }
+    .advantages{
+        margin-bottom: 60px;
+    }
+    .iphone_6 .protection a{
+        margin-bottom: 20px;
+    }
+    .mybutton{
+        width: 25%;
+        padding: 0;
+        line-height: 20px;
+        font-size: 0;
+        top: 4px;
+    }
+    .mybutton:after{
+        margin: 0;
+        font-size: 22px;
+        vertical-align: center;
+        padding: 10px 0;
     }
 }
 
